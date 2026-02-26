@@ -895,10 +895,10 @@ g++ -std=c++17 -pthread -O2 -I include -o dpi_engine \
 
 ```bash
 g++ -std=c++17 -pthread -O2 -I include -o dpi_engine src/dpi_mt.cpp src/pcap_reader.cpp src/packet_parser.cpp src/sni_extractor.cpp src/types.cpp
-### Running
 
 ```
 
+### Running
 **Basic usage:**
 ```bash
 ./dpi_engine test_dpi.pcap output.pcap
